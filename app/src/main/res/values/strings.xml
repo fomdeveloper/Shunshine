@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shunshine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Menu label to fetch updated weather info from the server-->
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Label for the location preference [CHAT LIMIT=30]-->
+    <string name="pref_location_label">Location</string>
+
+    <!--Key name for storing location in SharedPreferences [CHAR LIMIT=NONE]-->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!--Default postal code for location preference [CHAR LIMIT=NONE]-->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+
+
+    <string name="pref_units_label">Temperature units</string>
+
+
+    <string name="pref_units_key" translatable="false">temperature</string>
+
+
+    <string name="pref_units_metric" translatable="false">Metric</string>
+    <string name="pref_units_imperial" translatable="false">Imperial</string>
+
+    <string-array name="pref_units_values">
+        <item>@string/pref_units_metric</item>
+        <item>@string/pref_units_imperial</item>
+    </string-array>
+    <string-array name="pref_units_options">
+        <item>@string/pref_units_metric</item>
+        <item>@string/pref_units_imperial</item>
+    </string-array>
+
+
+</resources>
