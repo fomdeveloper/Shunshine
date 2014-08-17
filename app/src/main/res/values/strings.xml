@@ -4,7 +4,7 @@
     <string name="app_name">Shunshine</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="action_map">Map Location</string>
 
     <!--Menu label to fetch updated weather info from the server-->
     <string name="action_refresh">Refresh</string>
@@ -21,24 +21,13 @@
     <string name="pref_location_default" translatable="false">94043</string>
 
 
-
+    <!--Strings related to units setting-->
     <string name="pref_units_label">Temperature units</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
 
 
-    <string name="pref_units_key" translatable="false">temperature</string>
-
-
-    <string name="pref_units_metric" translatable="false">Metric</string>
-    <string name="pref_units_imperial" translatable="false">Imperial</string>
-
-    <string-array name="pref_units_values">
-        <item>@string/pref_units_metric</item>
-        <item>@string/pref_units_imperial</item>
-    </string-array>
-    <string-array name="pref_units_options">
-        <item>@string/pref_units_metric</item>
-        <item>@string/pref_units_imperial</item>
-    </string-array>
 
 
 </resources>
